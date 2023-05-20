@@ -1,0 +1,30 @@
+# Binaries and build artifacts
+**/bin/
+**/obj/
+**/out/
+
+# Node.js dependencies
+frontend/node_modules/
+frontend/*.log
+frontend/dist
+
+# .NET build files
+EnglishGuideWeb/**/*.sln.ide
+EnglishGuideWeb/**/*.csproj.user
+EnglishGuideWeb/**/*.dotnet-msbuild.cache
+
+# .NET test files
+EnglishGuideWeb/**/*.TestResults/
+
+# .NET project files
+EnglishGuideWeb/**/Properties/launchSettings.json
+EnglishGuideWeb/**/appsettings.Development.json
+EnglishGuideWeb/**/appsettings.Production.json
+
+# Editor-specific files
+frontend/.vscode/
+.idea/
+
+# Miscellaneous files
+*.swp
+.DS_Store

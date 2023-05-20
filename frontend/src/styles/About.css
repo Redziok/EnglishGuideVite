@@ -1,0 +1,14 @@
+.about-container {
+	height: calc(100% - 69px);
+	text-align: center;
+	color: rgb(199, 194, 187);
+	font-size: 25px;
+	display: grid;
+	place-items: center;
+}
+
+h3,
+h2,
+h1 {
+	margin: 0 !important;
+}
